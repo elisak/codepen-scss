@@ -4,12 +4,13 @@ body{
 
 
 h1{
-	color:$grey
+	color:$grey;
+	font-size:10em;
 }
 
 .snow{
 	background-color: transparent;
-	background-image: $snow-1;
+	background-image: $snow-1,$snow-ball;
 	z-index: 999;
   right: 0;
   top: 0;
@@ -18,4 +19,7 @@ h1{
   margin-top: 0;
   pointer-events: none;
   position: absolute;
+
+
+
 }
