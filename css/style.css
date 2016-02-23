@@ -4,12 +4,14 @@ body {
 
 h1 {
   color: grey;
-  font-size: 10em;
+  font-size: 5em;
 }
 
 .snow {
   background-color: transparent;
   background-image: url(../images/snow.png), url(../images/snow-ball-02.png);
+  -webkit-animation: snow 20s linear infinite;
+  animation: snow 20s linear infinite;
   z-index: 999;
   right: 0;
   top: 0;
@@ -18,4 +20,22 @@ h1 {
   margin-top: 0;
   pointer-events: none;
   position: absolute;
+}
+
+@-webkit-keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
+}
+
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
 }

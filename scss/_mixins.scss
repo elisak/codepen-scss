@@ -1,4 +1,4 @@
-@mixin snow{
+@mixin animation{
 	-webkit-animation: snow 20s linear infinite;
   -moz-animation: snow 20s linear infinite;
   -ms-animation: snow 20s linear infinite;
@@ -6,14 +6,5 @@
 
 }
 
-
-@mixin snow{
-	0% {
-    background-position: 0px 0px, 0px 0px, 0px 0px
-  }
-  100% {
-    background-position: 500px 1000px, 400px 400px, 300px 300px
-  }
-}
 
 
