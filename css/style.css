@@ -4,12 +4,12 @@ body {
 
 h1 {
   color: grey;
-  font-size: 5em;
+  font-size: 10em;
 }
 
 .snow {
   background-color: transparent;
-  background-image: url(../images/snow.png), url(../images/snow-ball-02.png);
+  background-image: url(../images/snow-1.png), url(../images/snow-ball-1.png);
   -webkit-animation: snow 20s linear infinite;
   animation: snow 20s linear infinite;
   z-index: 999;
